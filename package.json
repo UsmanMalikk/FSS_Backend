@@ -1,0 +1,46 @@
+{
+  "name": "backend-email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@langchain/groq": "^0.2.3",
+    "cloudconvert": "^3.0.0",
+    "cloudinary": "^2.6.1",
+    "cors": "^2.8.5",
+    "cron": "^4.3.0",
+    "docx-pdf": "^0.0.1",
+    "docx-templates": "^4.14.1",
+    "docxtemplater": "^3.63.0",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.4.0",
+    "googleapi": "^1.0.2",
+    "googleapis": "^149.0.0",
+    "html-pdf": "^3.0.1",
+    "langchain": "^0.3.29",
+    "libreoffice-convert": "^1.6.1",
+    "mailjet": "^0.0.1",
+    "multer": "^2.0.0",
+    "node-cron": "^4.0.5",
+    "node-fetch": "^3.3.2",
+    "node-mailjet": "^6.0.8",
+    "open": "^10.1.2",
+    "openai": "^5.7.0",
+    "pizzip": "^3.2.0",
+    "puppeteer": "^24.9.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.19"
+  }
+}
