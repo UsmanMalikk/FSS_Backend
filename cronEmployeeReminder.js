@@ -132,7 +132,7 @@ const EXPIRED_ALERT_EMAILS = ["ops1@fssgulf.com", "usmanmunir@fssgulf.com", "usm
 // const EXPIRED_ALERT_EMAILS = ["ops1@fssgulf.com"];
 
 function scheduleEmployeeReminderJob() {
-  cron.schedule("0 8 * * *", async () => {
+  cron.schedule("08 10 * * *", async () => {
     console.log("🔁 Checking employee expiry reminders...");
 
     const snapshot = await db.collection("employees").get();
