@@ -5,12 +5,15 @@ const scheduleEmployeeReminderJob = require("./cronEmployeeReminder");
 require("dotenv").config();
 const cors = require("cors");
 const path = require("path");
+const employeeRoutes = require('./routes/employees');
 
 const app = express();
 const PORT = process.env.PORT || 5689;
 
 app.use(express.json());
 app.use(cors());
+app.use('/employees', employeeRoutes);
+
 // Static file access (for PDF downloads)
 // app.use('/output', express.static(path.join(__dirname, 'output')));
 
