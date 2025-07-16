@@ -14,7 +14,7 @@
   "dependencies": {
     "@langchain/groq": "^0.2.3",
     "cloudconvert": "^3.0.0",
-    "cloudinary": "^2.6.1",
+    "cloudinary": "^1.41.3",
     "cors": "^2.8.5",
     "cron": "^4.3.0",
     "docx-pdf": "^0.0.1",
